@@ -8,6 +8,7 @@ function myfunction(){
         $('#bttn').click(function(){
             $('#input').select()
             document.execCommand("copy");
+            alert("Copying Successfull");
         });
     });
     
