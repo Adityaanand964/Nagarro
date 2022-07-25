@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    background: rgb(238,174,202);
+}
+hr{
+    height: 5px;
+    background-color: black;
+    margin: 0%;
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Button{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+    !important;
+}
+.Button button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+#content{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+}
+ #cont{
+    background: rgb(238,174,202);
+    margin: 0px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    outline: 5px solid black;
+    width: 100%;
+    height: 100%;
+ }
