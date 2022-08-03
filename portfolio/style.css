@@ -120,7 +120,7 @@ body{
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
-  max-width: inherit;
+  max-height: 40em;
   border-radius: 2em;
 }
 .about h1{
@@ -135,10 +135,10 @@ body{
 }
 .myimg{
   flex: 15%;
-  padding: 5px;
-  border-radius: 2em;
   overflow: hidden;
   margin: 1em 0em 0em 2em ;
+  display: flex;
+  align-items: center;
 }
 .myimg img{
   border: 5px solid #ffffff;
