@@ -4,29 +4,75 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.content{
-    position: absolute;
-    left: 8%;
+body{
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1em 3em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.navbtn{
+  display: inline;
+  float: right;
+}
+.navbtn a{
+  text-decoration: none;
+  margin: 0 0.5em;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.active-nav{
+  background-color:#fd4766 ;
+  padding: .25rem .5rem;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3em 2em;
+
+}
+
+.intro{
+  max-width: 500px;
+  flex: 60%;
+}
+.bitmoji{
+  background: linear-gradient(90deg, rgba(253,71,102,1) 0%, rgba(255,121,21,1) 100%);
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 400px;
+  flex: 40%;
+}
 .content h1{
     color: #1f1f25;
     font-size: 75px;
     font-weight: 900;
     line-height: 90px;
     text-transform: inherit;
-    width: 70%;
-    padding-right: 40px;
-    display: inline;
-    
-    
+
 }
 .content h1 span{
+  font-size: 60px;
     color: #fd4766;
 }
 
 .content p{
-    width: 70%;
     font-size: 30px;
     color: #757575;
     margin-top: 25px;
@@ -64,4 +110,42 @@
   .fa-linkedin {
     background: #007bb5;
     color: white;
+  }
+.about{
+  background-color: #fd4766;
+  margin: 20px 0 0 0;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: inherit;
+  border-radius: 2em;
+}
+.about h1{
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+.about p{
+  color: #ffffff;
+  text-align: justify;
+  flex: 75%;
+}
+.myimg{
+  flex: 15%;
+  padding: 5px;
+  border-radius: 2em;
+  overflow: hidden;
+  margin: 1em 0em 0em 2em ;
+}
+.myimg img{
+  border: 5px solid #ffffff;
+  width: 100%;
+  background-color: white;
+  border-radius: 2em;
+}
+  footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
   }

@@ -5,24 +5,45 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="content">
-        <table>
-            <tr>
-                <td>
-                    <h1>Hello, I'm <span>Aditya</span></h1>
-                    <p>I am intern at Nagaaro.</p>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                </td>
-                <td><img src="https://pbs.twimg.com/media/Dnc8yglX4AApHB3?format=jpg&name=small"></td>
-
-            </tr>
-        </table>
-        
-        
-        
-        
+    <div class="navbar">
+        <div class="logo">
+            <span>Aditya</span>
+        </div>
+        <div class="navbtn">
+            <a href="#" class="nav-link active-nav" onclick="loadDoc('home', event)">Home</a>
+            <a href="#" class="nav-link" onclick="loadDoc('about', event)">About</a>
+            <a href="#" class="nav-link" onclick="loadDoc('skills', event)">Skills</a>
+            <a href="#" class="nav-link" onclick="loadDoc('education', event)">Education</a>
+            <a href="#" class="nav-link" onclick="loadDoc('projects', event)">Projects</a>
+            <a href="#" class="nav-link" onclick="loadDoc('contact', event)">Contact</a>
+        </div>
     </div>
+    <div class="content">
+        <div class="intro">
+            <h1>Hello, I'm </h1>
+            <h1><span>Aditya Anand</span></h1>
+            <p>I am intern at Nagaaro.</p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <div class="bitmoji">
+            <img src="./Image/Bitmoji.png">
+        </div>      
+    
+    <div class="about">
+        <h1>About</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        </p>
+        <div class="myimg">
+            <img src="./Image/myimg.jpg" alt="">
+        </div>
+    </div>
+</div>
+    <footer>
+        <span class="copyright">&copy; Aditya Anand</span>
+    </footer>
 </body>
