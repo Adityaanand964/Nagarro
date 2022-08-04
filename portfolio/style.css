@@ -82,7 +82,7 @@ body{
     margin-bottom: 30px;
 }
 
-.fa {
+.intro .fa-brands {
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -91,11 +91,11 @@ body{
     border-radius: 50%;
   }
   
-  .fa:hover {
+  .intro .fa-brands:hover {
       opacity: 0.7;
   }
   
-  .fa-facebook {
+  .fa-facebook-f {
     background: #3B5998;
     color: white;
   }
@@ -122,6 +122,7 @@ body{
   flex-wrap: wrap;
   max-height: 40em;
   border-radius: 2em;
+  width: 100%;
 }
 .about h1{
   color: #ffffff;
@@ -148,20 +149,24 @@ body{
 }
 .education{
   margin: 0 0 0 0;
-  padding: 50px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+  background-color: #fd4766;
+  border-radius: 2em;
+  padding: 50px;
 }
-
+.education h1{
+  color: #ffffff;
+}
 .edudetails{
   margin: 2em 0 0 0;
   width: 32%;
   border-radius: 2em;
-  border: 2px solid black;
+  border: 2px solid #ffffff;
   padding: 1em;
+  color: #ffffff;
   
 }
 
@@ -169,7 +174,7 @@ body{
   float: right;
   font-weight: 100;
   font-size: medium;
-  color:gray;
+  color:#ffffff;
 }
 .edudetails ul{
   margin: 1em 1em 1em 2em;
@@ -177,9 +182,43 @@ body{
   font-size: large;
   font-weight: 500;
 }
+.skills{
+  margin: 20px 0 0 0;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 40em;
+  width: 100%;
+}
+.skills h1{
+  color: #306998;
+}
+.skills span{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.skills .fa-brands,.fa{
+  color: #306998;
+  font-size: 3em;
+  border: 2px solid #ffffff;
+  border-radius: 2em;
+  padding: 20px;
+  margin: 40px 20px;
+}
+
   footer{
     bottom: 0;
     width: 100%;
     text-align: center;
     padding: 1em;
   }
+
+  @media (max-width: 1234px) {
+    .skills .fa-brands,.fa{
+      font-size: 2.6em;
+      margin: 40px 0px;
+    }
+
+  }
+  
