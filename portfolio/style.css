@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -212,6 +215,9 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   margin: 40px 20px;
+}
+.projects h1{
+  color: #306998;
 }
 .projectitem{
   display: flex;
